@@ -1,0 +1,20 @@
+﻿<Window x:Class="ATCRadarScreen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATCRadarScreen"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="520" Width="520" >
+    <Grid>
+        <!--<TextBlock Text="This is a text block" />-->
+    
+    <Canvas>
+        <Ellipse Name="screen" Width="500" Height="500" Stroke="Black" StrokeThickness="4"/>
+        <!--<Line Name="ac1" X1="200" Y1="310" X2="210" Y2="300" Stroke="Black" TextBlock.FontSize="6" />
+        <Line Name="ac2" X1="300" Y1="310" X2="310" Y2="300" Stroke="Black" />
+        <Line Name="ac3" X1="400" Y1="310" X2="410" Y2="300" Stroke="Black" />-->
+    </Canvas>
+    </Grid>
+</Window>
